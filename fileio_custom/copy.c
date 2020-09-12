@@ -1,3 +1,10 @@
+/*
+
+Use to compile:
+gcc -o copy copy.c ../tlpi-dist/lib/error_functions.o
+
+*/
+
 #include <sys/stat.h>
 #include <fcntl.h>
 #include "../tlpi-dist/lib/tlpi_hdr.h"
